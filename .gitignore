@@ -1,0 +1,11 @@
+*.log*
+.cache
+.DS_Store
+.idea
+.vscode
+lib
+es
+node_modules
+package-lock.json
+dist
+test/coverage

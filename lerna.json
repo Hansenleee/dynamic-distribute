@@ -1,0 +1,19 @@
+{
+  "useWorkspaces": true,
+  "npmClient": "yarn",
+  "packages": [
+    "packages/*"
+  ],
+  "version": "independent",
+  "ignoreChanges": [
+    "*.md",
+    ".npmignore",
+    "tsconfig.json"
+  ],
+  "command": {
+    "publish": {
+      "registry": "http://registry.npm.qima-inc.com",
+      "message": "chore(release): publish"
+    }
+  }
+}
