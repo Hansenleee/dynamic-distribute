@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-dynamic-distribute",
-  "version": "1.0.0",
+  "version": "0.0.1-beta.0",
   "description": "基于 vue-cli 的动态下发",
   "keywords": [
     "vue-cli",
@@ -35,6 +35,6 @@
     "@vue/cli-service": "^5.0.4"
   },
   "dependencies": {
-    "dynamic-distribute-build": "^1.0.0"
+    "dynamic-distribute-build": "^0.0.1-beta.0"
   }
 }
