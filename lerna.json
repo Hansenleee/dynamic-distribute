@@ -12,6 +12,7 @@
   ],
   "command": {
     "publish": {
+      "registry": "http://registry.npm.taobao.org/",
       "message": "chore(release): publish"
     }
   }
