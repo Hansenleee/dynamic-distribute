@@ -12,7 +12,6 @@
   ],
   "command": {
     "publish": {
-      "registry": "http://registry.npm.qima-inc.com",
       "message": "chore(release): publish"
     }
   }
