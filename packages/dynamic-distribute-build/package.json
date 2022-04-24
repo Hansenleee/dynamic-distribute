@@ -1,6 +1,6 @@
 {
   "name": "dynamic-distribute-build",
-  "version": "0.0.1-beta.2",
+  "version": "0.0.1-beta.3",
   "description": "动态打包模块",
   "keywords": [
     "dynamic",
