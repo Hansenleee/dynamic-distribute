@@ -1,10 +1,10 @@
 {
-  "name": "dynamic-distribute-build",
-  "version": "0.0.1-beta.5",
-  "description": "动态打包模块",
+  "name": "dynamic-distribute-node",
+  "version": "1.0.0",
+  "description": "dynamic distribute in NodeJS",
   "keywords": [
     "dynamic",
-    "build"
+    "distribute"
   ],
   "author": "libin_li <libin_li@youzan.com>",
   "homepage": "https://github.com/Hansenleee/dynamic-distribute",
@@ -17,23 +17,17 @@
   "files": [
     "lib"
   ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Hansenleee/dynamic-distribute.git"
   },
   "scripts": {
-    "build": "tsc"
+    "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/Hansenleee/dynamic-distribute/issues"
-  },
-  "dependencies": {
-    "fs-walk": "^0.0.2",
-    "lodash": "^4.17.21",
-    "webpack-chain": "^6.5.1"
-  },
-  "gitHead": "23f2b95536249384a00f7f9a1224d1026ec214d6",
-  "devDependencies": {
-    "@types/lodash": "^4.14.182"
   }
 }
