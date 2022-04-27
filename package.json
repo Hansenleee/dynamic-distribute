@@ -5,7 +5,7 @@
   "scripts": {
     "clean": "rm -rf packages/**/lib",
     "build": "lerna run --sort --stream build",
-    "beta": "npm run clean && npm run build && lerna publish --preid beta --dist-tag beta"
+    "beta": "npm run clean && npm run build && lerna publish --preid beta --dist-tag beta --git-tag-version=false"
   },
   "devDependencies": {
     "eslint": "7.x",
