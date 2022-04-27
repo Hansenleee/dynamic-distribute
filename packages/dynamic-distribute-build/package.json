@@ -1,6 +1,6 @@
 {
   "name": "dynamic-distribute-build",
-  "version": "0.0.1-beta.5",
+  "version": "0.0.1-beta.6",
   "description": "动态打包模块",
   "keywords": [
     "dynamic",
@@ -28,11 +28,10 @@
     "url": "https://github.com/Hansenleee/dynamic-distribute/issues"
   },
   "dependencies": {
-    "fs-walk": "^0.0.2",
     "lodash": "^4.17.21",
     "webpack-chain": "^6.5.1"
   },
-  "gitHead": "23f2b95536249384a00f7f9a1224d1026ec214d6",
+  "gitHead": "71fe478546e65c414a3eb23ad426cf3264d1fe7c",
   "devDependencies": {
     "@types/lodash": "^4.14.182"
   }

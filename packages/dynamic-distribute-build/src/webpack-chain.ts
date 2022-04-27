@@ -3,10 +3,8 @@
  */
 import path from 'path';
 import ChainableConfig from 'webpack-chain';
-// @ts-ignore
-import walk from 'fs-walk';
 import { LIBRARY_PREFIX } from './constants';
-import { extendsConfig } from './shared';
+import { extendsConfig, walkDir } from './shared';
 import { IDynamicPluginConfig } from './types';
 
 export interface WebpackChainBuildOptions {
@@ -38,13 +36,11 @@ export class WebpackChainBuild {
       // 清理原有的入口配置
       webpackChain.entryPoints.clear();
 
-      walk.dirs(entry!.path, (basedir: string, filename: string) => {
+      walkDir(entry!.path, (filename: string, filePath: string) => {
         webpackChain
           .entry(filename)
-          .add(path.join(basedir, filename, entry.name as string))
+          .add(path.join(filePath, entry.name as string))
           .end();
-      }, (err: Error) => {
-        console.error('[dynamic-distribute]', 'build error' + err);
       });
     });
   }

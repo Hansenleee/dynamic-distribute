@@ -23,10 +23,13 @@
     "url": "git+https://github.com/Hansenleee/dynamic-distribute.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "build": "tsc"
   },
   "bugs": {
     "url": "https://github.com/Hansenleee/dynamic-distribute/issues"
   },
-  "gitHead": "23f2b95536249384a00f7f9a1224d1026ec214d6"
+  "gitHead": "23f2b95536249384a00f7f9a1224d1026ec214d6",
+  "dependencies": {
+    "dynamic-distribute-loader": "^1.0.0"
+  }
 }
