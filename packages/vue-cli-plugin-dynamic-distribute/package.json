@@ -25,6 +25,7 @@
     "@vue/cli-service": "^5.0.4"
   },
   "dependencies": {
+    "cross-env": "^7.0.3",
     "dynamic-distribute-build": "^0.0.1-beta.6"
   },
   "gitHead": "71fe478546e65c414a3eb23ad426cf3264d1fe7c"
