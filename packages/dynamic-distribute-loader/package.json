@@ -1,10 +1,10 @@
 {
-  "name": "dynamic-distribute-node",
-  "version": "0.0.1-beta.1",
-  "description": "dynamic distribute in NodeJS",
+  "name": "dynamic-distribute-loader",
+  "version": "1.0.0",
+  "description": "动态下发运行时加载器",
   "keywords": [
     "dynamic",
-    "distribute"
+    "loader"
   ],
   "author": "libin_li <libin_li@youzan.com>",
   "homepage": "https://github.com/Hansenleee/dynamic-distribute",
@@ -22,10 +22,9 @@
     "url": "git+https://github.com/Hansenleee/dynamic-distribute.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "build": "tsc"
   },
   "bugs": {
     "url": "https://github.com/Hansenleee/dynamic-distribute/issues"
-  },
-  "gitHead": "6c83e664df56d97ec98d9d0c9d77626e6ac1e15f"
+  }
 }

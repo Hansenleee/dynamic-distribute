@@ -1,6 +1,6 @@
 {
   "name": "dynamic-distribute-build",
-  "version": "0.0.1-beta.6",
+  "version": "0.0.1-beta.7",
   "description": "动态打包模块",
   "keywords": [
     "dynamic",
@@ -31,7 +31,7 @@
     "lodash": "^4.17.21",
     "webpack-chain": "^6.5.1"
   },
-  "gitHead": "71fe478546e65c414a3eb23ad426cf3264d1fe7c",
+  "gitHead": "6c83e664df56d97ec98d9d0c9d77626e6ac1e15f",
   "devDependencies": {
     "@types/lodash": "^4.14.182"
   }

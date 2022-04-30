@@ -1,6 +1,6 @@
 {
   "name": "dynamic-distribute-vue",
-  "version": "0.0.1-beta.5",
+  "version": "0.0.1-beta.6",
   "description": "vue 动态下发",
   "keywords": [
     "dynamic",
@@ -28,7 +28,7 @@
   "bugs": {
     "url": "https://github.com/Hansenleee/dynamic-distribute/issues"
   },
-  "gitHead": "23f2b95536249384a00f7f9a1224d1026ec214d6",
+  "gitHead": "6c83e664df56d97ec98d9d0c9d77626e6ac1e15f",
   "dependencies": {
     "dynamic-distribute-loader": "^1.0.0"
   }

@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-dynamic-distribute",
-  "version": "0.0.1-beta.6",
+  "version": "0.0.1-beta.7",
   "description": "基于 vue-cli 的动态下发",
   "keywords": [
     "vue-cli",
@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "cross-env": "^7.0.3",
-    "dynamic-distribute-build": "^0.0.1-beta.6"
+    "dynamic-distribute-build": "^0.0.1-beta.7"
   },
-  "gitHead": "71fe478546e65c414a3eb23ad426cf3264d1fe7c"
+  "gitHead": "6c83e664df56d97ec98d9d0c9d77626e6ac1e15f"
 }
