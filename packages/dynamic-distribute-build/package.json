@@ -6,7 +6,7 @@
     "dynamic",
     "build"
   ],
-  "author": "libin_li <libin_li@youzan.com>",
+  "author": "libin_li",
   "homepage": "https://github.com/Hansenleee/dynamic-distribute",
   "license": "MIT",
   "main": "lib/index.js",
