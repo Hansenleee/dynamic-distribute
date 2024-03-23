@@ -1,0 +1,33 @@
+{
+  "name": "dynamic-distribute-react",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "libin_li <libin_li@youzan.com>",
+  "homepage": "https://github.com/Hansenleee/dynamic-distribute#readme",
+  "license": "ISC",
+  "main": "lib/dynamic-distribute-react.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npm.taobao.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hansenleee/dynamic-distribute.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "tsc"
+  },
+  "bugs": {
+    "url": "https://github.com/Hansenleee/dynamic-distribute/issues"
+  },
+  "dependencies": {
+    "dynamic-distribute-loader": "^1.0.0"
+  }
+}

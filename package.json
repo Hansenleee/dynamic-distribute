@@ -1,20 +1,24 @@
 {
   "name": "root",
   "private": true,
-  "workspaces": ["packages/*"],
+  "workspaces": [
+    "packages/*",
+    "demo/*"
+  ],
   "scripts": {
     "clean": "rm -rf packages/**/lib",
     "build": "lerna run --sort --stream build",
     "beta": "npm run clean && npm run build && lerna publish --preid beta --dist-tag beta --git-tag-version=false"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.7.0",
+    "@typescript-eslint/parser": "^4.7.0",
     "eslint": "7.x",
-    "lerna": "^3.4.3",
-    "prettier": "^2.6.2",
-    "typescript": "^4.6.3",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.4",
-    "@typescript-eslint/eslint-plugin": "^4.7.0",
-    "@typescript-eslint/parser": "^4.7.0"
+    "lerna": "^3.4.3",
+    "postcss-normalize": "^10.0.1",
+    "prettier": "^2.6.2",
+    "typescript": "^4.6.3"
   }
 }

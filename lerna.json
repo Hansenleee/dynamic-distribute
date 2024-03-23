@@ -2,9 +2,10 @@
   "useWorkspaces": true,
   "npmClient": "yarn",
   "packages": [
-    "packages/*"
+    "packages/*",
+    "demo/*"
   ],
-  "version": "independent",
+  "version": "0.0.1",
   "ignoreChanges": [
     "*.md",
     ".npmignore",
